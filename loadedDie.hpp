@@ -6,10 +6,10 @@ class LoadedDie : public Die {
   private:
 
   public:
-    LoadedDie(int n) : Die(n) {
-      sides = n;
-    }
+    // Loaded Die constructor
+    LoadedDie(int n);
 
+    // Derived class roll function
     virtual int roll();
 };
 

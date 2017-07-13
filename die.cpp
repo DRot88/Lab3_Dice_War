@@ -6,7 +6,7 @@ using std::endl;
 
 // default constructor
 Die::Die() {
-  sides = 0;
+  sides = 6;
 }
 
 // constructor requiring input for number of sides

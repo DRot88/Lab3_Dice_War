@@ -8,7 +8,7 @@ using std::endl;
 int main() {
 
   Die d1(6);
-  LoadedDie ld1(21);
+  LoadedDie ld1(7);
 
   d1.roll();
   ld1.roll();

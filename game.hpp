@@ -3,9 +3,12 @@
 
 class Game {
   private:
-
+    int player1score;
+    int player2score;
+    int totalRounds;
   public:
-    
+    void playGame();
+    void displayResults();
 };
 
 #endif
