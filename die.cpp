@@ -17,7 +17,7 @@ Die::Die(int n) {
 // Roll the Die, randomizing between 1 and N sides
 int Die::roll() {
   cout << "Regular Roll: ";
-  int result = (time(0) % sides) + 1;
+  int result = rand() % sides + 1;
   cout << result << endl;
   return result;
 }

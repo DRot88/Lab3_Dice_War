@@ -7,12 +7,10 @@ using std::endl;
   LoadedDie::LoadedDie(int n) : Die(n) {};
 
   int LoadedDie::roll() {
-    cout << "Loaded Roll: ";
-    int result = (time(0) % sides) + 1;
-    cout << "Roll: " << result << endl;
+    int result = rand() % sides + 1;
     if (result < sides/2) {
-      result = sides - result + 1;
+      result = sides - 1;
     }
-    cout << "ReRoll: " << result << endl;
+    cout << "Loaded Roll: " << result << endl;
     return result;
 }

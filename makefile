@@ -9,7 +9,7 @@
 CC = g++
 STD = -std=c++11
 CFLAGS = -c -g -Wall
-SOURCES = main.cpp game.cpp die.cpp loadedDie.cpp
+SOURCES = main.cpp game.cpp die.cpp loadedDie.cpp player.cpp menu.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = lab3
 
